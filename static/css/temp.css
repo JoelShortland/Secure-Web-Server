@@ -1,0 +1,105 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 45%;
+    max-width: 45%;
+}
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.green_spot{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left:40%;
+    bottom:50px;
+    background-color:lightgreen;
+    border-radius: 50%;
+}
+.red_spot{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left:40%;
+    bottom:50px;
+    background-color:red;
+    border-radius: 50%;
+}
+.friends_board{
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    height: 70%;
+    width: 25%;
+    background-color:lightskyblue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black; 
+}
+
+.a_friend{
+    width:100%;
+    height: 10%;
+    background-color:lightskyblue;
+    border-style: solid none solid none;
+    border-width: 2px;
+    border-color: black; 
+}
+.friend_list{
+    background-color:lightskyblue;
+}
+.friend_name{
+    position: relative;
+    font-size:1.5em;
+    right:40%;
+}   
+
+.text_msg{
+    position: fixed;
+    left:50%;
+    top:30%;
+    height:40%;
+    width:45%;
+    }
+#usrform{
+    position: fixed;
+    left:50%;
+    top:80%;
+}

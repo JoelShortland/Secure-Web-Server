@@ -1,0 +1,23 @@
+<script type="text/javascript">
+function friend_click(cur){
+    id = cur.getElementsByClassName("friend_name")[0].innerHTML;
+    document.getElementById("aim").value = id;
+    alert(id);
+}
+</script>
+<div class="friends_board">
+    <ul class="friend_list" >
+        <li class="a_friend" onclick = "friend_click(this)"> <p class="friend_name">12345</p> <div class="green_spot" id="12345"></div></li>
+        <li class="a_friend"onclick = "friend_click(this)"> <p class="friend_name">123456</p> <div class="green_spot" id="123456"></div></li>
+    </ul>
+</div>
+<textarea class="text_msg" id="input" name="input" form="usrform"></textarea>
+
+<form action="send_msg" id="usrform" method="POST">
+    <input hidden type="text" value=" " id="aim" name="aim">
+    <input type="submit" id="submit_button">Status:<p id="Status"></p>
+   </form>
+<script src="js/jsencrypt.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/AES.js"></script>
+<script type="text/javascript" src="js/sha256.js"></script>
+<script type="text/javascript" src="js/script_message.js"></script>

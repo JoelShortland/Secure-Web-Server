@@ -1,0 +1,18 @@
+Login with a username and password
+</p>
+<p>
+<form name="register" id="reg" action="/register" method="post">
+    Username: <input name="username" id="username" type="text" />
+</br>
+    Password: <input name="password" id="pass" type="password" />
+    <input hidden name="pubkey" id="pubkey" type="text" />
+    <input hidden name="aes_prikey" id="aes_prikey" type="text" />
+    <input hidden name="iv" id="iv" type="text" />
+</br>
+    <button id="submit_button" type="button" >Register</button>
+</form>
+</p>
+<script type="text/javascript" src="js/AES.js"></script>
+<script type="text/javascript" src="js/sha256.js"></script>
+<script type="text/javascript" src="js/register.js"></script>
+</center>
